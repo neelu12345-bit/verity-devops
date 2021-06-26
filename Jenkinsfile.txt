@@ -67,7 +67,8 @@ pipeline {
         }
 		//Code ends for stage Launch Tomcat Server
 		
-			
+		
+		
 		//Code starts for stage Deploy War on Tomcat Server
 		stage('Deploy War on Tomcat Server') {
             steps {
@@ -87,6 +88,8 @@ pipeline {
             }
         }
 		//Code ends for stage System Test
+		
+		
 		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
 		
 	
