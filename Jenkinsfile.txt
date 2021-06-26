@@ -12,6 +12,7 @@ pipeline {
                 sh 'mvn clean'
             }
         }
+		//Code ends for stage Clean
 		// ******ALL CODE TO BE ADDED BELOW THIS COMMENT******
 		
 	
